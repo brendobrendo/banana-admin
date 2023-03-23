@@ -1,6 +1,6 @@
 const getServerEndPoint = () => {
   if (process.env.REACT_APP_VARIANT === 'development') {
-    return 'http://20.169.84.181:3000';
+    return 'http://20.150.197.108:3000';
   } if (process.env.REACT_APP_VARIANT === 'production') {
     return 'https://api.bananaapp.org';
   } if (process.env.REACT_APP_VARIANT === 'local') {
